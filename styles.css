@@ -2,7 +2,7 @@ body {
     
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    
     font-family: Roboto, sans-serif;
   }
   header {
@@ -10,6 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    margin: 0;
 
   }
    a {
@@ -29,9 +30,20 @@ body {
     padding-left: 96px;
     
   }
+  main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
 
   .hero {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 200px;
+
+    
   }
   .hero-text {
     font-size: 48px;
@@ -44,4 +56,33 @@ body {
     font-size: 18px;
     color: #f9faf8;
   }
-  
+   .hero-button {
+    background-color: #3882f6;
+    font-size: 24px;
+
+   }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width:100px;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .content {
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+
+  }
+  .card > p {
+    flex: auto;
+  }
+  main > h1 {
+    text-align: center;
+  }
+  img {
+    width: 350px;
+  }
